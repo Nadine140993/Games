@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: sans-serif;
+    color: #FFFDD0;
+    background-image: linear-gradient(to right, #2d1b33, #251a2e, #2c1e35);
+    overflow-x: hidden;
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFFDD0;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+h1 {
+    padding-top: 2rem;
+}
+body > * {
+    margin-top: 2rem;
+}
+
+.animal {
+    width: 400px;
+}
+
+.answer {
+    width: 200px;
+}
+
+button, input {
+    border: none;
+    border-radius: 2px;
+    margin-left: .5rem;
+    font-size: 1.3em;
+}
+
+button {
+    background: #d3d096;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.answer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+}
+
+.answers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin: 1rem;
+    border: 1px solid #FFFDD0;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.answers .answer-img {
+    width: 150px;
+}
+
+.answers p {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    border: 2px solid red;
+}
+
