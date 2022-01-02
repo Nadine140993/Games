@@ -34,11 +34,11 @@ form label, form input {
 }
 
 .text {
-    margin: clamp(2rem, 5rem, 6rem);
+    margin: 5rem;
     line-height: 2rem;
     outline: 2px solid white;
     padding: 1rem;
-    font-size: clamp(16px, 20px, 1.7rem);
+    font-size: 20px;
     opacity: 0;
 }
 
@@ -73,4 +73,16 @@ span {
 display: block;
 transition: .5s ease;
 margin-top: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .text {
+        margin: 2rem;
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+    }
 }
