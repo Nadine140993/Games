@@ -74,3 +74,16 @@ display: block;
 transition: .5s ease;
 margin-top: 1rem;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .text {
+        margin: 2rem;
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+}
