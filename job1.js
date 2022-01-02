@@ -17,12 +17,12 @@ const span6 = document.querySelector(".sixth")
 
 const fillWithWords = (e) => {
     e.preventDefault();
-    span1.textContent = adjective1.value
-    span2.textContent = adjective2.value
-    span3.textContent = verb.value
-    span4.textContent = noun.value
-    span5.textContent = adjective3.value
-    span6.textContent = noun2.value
+    span1.textContent = adjective1.value.toLowerCase()
+    span2.textContent = adjective2.value.toLowerCase()
+    span3.textContent = verb.value.toLowerCase()
+    span4.textContent = noun.value.toLowerCase()
+    span5.textContent = adjective3.value.toLowerCase()
+    span6.textContent = noun2.value.toLowerCase()
 
 
 
