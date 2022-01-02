@@ -20,14 +20,14 @@ const span8 = document.querySelector(".eigth")
 
 const fillWithWords = (e) => {
     e.preventDefault();
-    span1.textContent = adjective1.value
-    span2.textContent = adjective1.value
-    span3.textContent = adjective2.value
-    span4.textContent = verb.value
-    span5.textContent = noun.value
-    span6.textContent = adjective3.value
-    span7.textContent = noun2.value
-    span8.textContent = adj4.value
+    span1.textContent = adjective1.value.toLowerCase()
+    span2.textContent = adjective1.value.toLowerCase()
+    span3.textContent = adjective2.value.toLowerCase()
+    span4.textContent = verb.value.toLowerCase()
+    span5.textContent = noun.value.toLowerCase()
+    span6.textContent = adjective3.value.toLowerCase()
+    span7.textContent = noun2.value.toLowerCase()
+    span8.textContent = adj4.value.toLowerCase()
 
 
     text.style.opacity = "1";
